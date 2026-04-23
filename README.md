@@ -178,6 +178,9 @@ cd navtest_ws
 建图完成后退出，点云地图自动保存到`/FAST_LIO/PCD`下。后面需要使用cloudcompare对点云地图进行微调，使点云地图的地面尽量和XOY平面贴合。流程如下视频：
 
 
+https://github.com/user-attachments/assets/fafb983e-9fe5-4b78-bfb1-6693de80ddb4
+
+
 完成后将点云文件保存到`/src/FAST_LIO_LOCALIZATION_HUMANOID/Navigation/config/map`文件夹下，改名为`map.pcd`，同时复制一份到`/src/FAST_LIO_LOCALIZATION_HUMANOID/data`中，然后用以下命令将3d点云转化为2d栅格地图：
 ```bash
 cd navtest_ws
