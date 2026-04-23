@@ -39,9 +39,9 @@ database:
 
 # LLM配置
 llm:
-  api_key: "sk-qDrjngeLeP25yMit9650A553685c493cA6C248D160Eb057e"
-  api_base: "https://api.gpt.ge/v1"
-  model: "gpt-4o-2024-11-20"
+  api_key: "YOUR_OPENAI_API_KEY"
+  api_base: "YOUR_OPENAI_API_BASE_URL"
+  model: "YOUR_OPENAI_MODEL_NAME"
   temperature: 0.3
   max_tokens: 300
 
@@ -55,9 +55,9 @@ ros_topics:
 audio:
   use_tts: true  # 是否启用TTS语音合成
   tts_config:
-    app_id: "38b03603"
-    api_key: "52136d6271eb9e4fbc6e1da9f59ab33f"
-    api_secret: "NzRmOGU4N2IyZWQ2ZGQ3NTJkOWU5ZTRl"
+    app_id: "YOUR_TTS_APP_ID"
+    api_key: "YOUR_TTS_API_KEY"
+    api_secret: "YOUR_TTS_API_SECRET"
     voice: "x4_yezi"      # 语音类型 (叶子音色)
     sample_rate: 16000    # 采样率
   
