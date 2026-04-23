@@ -19,6 +19,8 @@
 - 扬声器、麦克风
 ## 2. 软件相关依赖
 系统需求：Ubuntu20.04+ROS Noetic
+第三方依赖库或工具（3rdparty）可在网盘获取：https://pan.quark.cn/s/f8e989c3894f?pwd=p5fb
+提取码：p5fb
 ### 2.1 Cmake
 需要升级cmake版本到3.20.1，这里采用源码安装
 
