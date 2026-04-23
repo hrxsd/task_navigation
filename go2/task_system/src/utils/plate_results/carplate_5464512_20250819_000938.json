@@ -1,0 +1,21 @@
+{
+    "detection_time": "20250819_000938",
+    "detection_type": "carplate",
+    "source_file": "test_image/5464512.jpg",
+    "results_count": 1,
+    "plates": [
+        {
+            "type": "carplate",
+            "plate_number": "津ALL887",
+            "confidence": 0.6370307803153992,
+            "position": {
+                "x1": 198,
+                "y1": 253,
+                "x2": 405,
+                "y2": 316
+            },
+            "time": "2025-08-19 00:09:38",
+            "image_path": "plate_images/plate_20250819000937.jpg"
+        }
+    ]
+}

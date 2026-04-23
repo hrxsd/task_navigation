@@ -1,0 +1,21 @@
+{
+    "detection_time": "20250819_131653",
+    "detection_type": "carplate",
+    "source_file": "test_image/1111.jpg",
+    "results_count": 1,
+    "plates": [
+        {
+            "type": "carplate",
+            "plate_number": "粤BAQ6113",
+            "confidence": 0.766291081905365,
+            "position": {
+                "x1": 700,
+                "y1": 550,
+                "x2": 827,
+                "y2": 604
+            },
+            "time": "2025-08-19 13:16:53",
+            "image_path": "plate_images/plate_20250819131652.jpg"
+        }
+    ]
+}

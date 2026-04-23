@@ -1,0 +1,80 @@
+{
+    "detection_time": "20250818_231844",
+    "detection_type": "behavior",
+    "source_file": "test_image/class/1755530217255.jpg",
+    "results_count": 6,
+    "behaviors": [
+        {
+            "type": "behavior",
+            "behavior": "hand-raising",
+            "confidence": 0.6141626834869385,
+            "position": {
+                "x1": 0,
+                "y1": 109,
+                "x2": 63,
+                "y2": 240
+            },
+            "time": "2025-08-18 23:18:44"
+        },
+        {
+            "type": "behavior",
+            "behavior": "hand-raising",
+            "confidence": 0.5409238338470459,
+            "position": {
+                "x1": 177,
+                "y1": 61,
+                "x2": 206,
+                "y2": 108
+            },
+            "time": "2025-08-18 23:18:44"
+        },
+        {
+            "type": "behavior",
+            "behavior": "hand-raising",
+            "confidence": 0.5165955424308777,
+            "position": {
+                "x1": 88,
+                "y1": 127,
+                "x2": 161,
+                "y2": 252
+            },
+            "time": "2025-08-18 23:18:44"
+        },
+        {
+            "type": "behavior",
+            "behavior": "hand-raising",
+            "confidence": 0.462958425283432,
+            "position": {
+                "x1": 207,
+                "y1": 84,
+                "x2": 248,
+                "y2": 129
+            },
+            "time": "2025-08-18 23:18:44"
+        },
+        {
+            "type": "behavior",
+            "behavior": "hand-raising",
+            "confidence": 0.4474601149559021,
+            "position": {
+                "x1": 71,
+                "y1": 94,
+                "x2": 122,
+                "y2": 184
+            },
+            "time": "2025-08-18 23:18:44"
+        },
+        {
+            "type": "behavior",
+            "behavior": "hand-raising",
+            "confidence": 0.3328525424003601,
+            "position": {
+                "x1": 74,
+                "y1": 93,
+                "x2": 124,
+                "y2": 142
+            },
+            "time": "2025-08-18 23:18:44"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "detection_time": "20250819_131738",
+    "detection_type": "carplate",
+    "source_file": "test_image/2222.jpg",
+    "results_count": 2,
+    "plates": [
+        {
+            "type": "carplate",
+            "plate_number": "粤BHP8992",
+            "confidence": 0.8056327104568481,
+            "position": {
+                "x1": 1062,
+                "y1": 629,
+                "x2": 1232,
+                "y2": 682
+            },
+            "time": "2025-08-19 13:17:38",
+            "image_path": "plate_images/plate_20250819131737.jpg"
+        },
+        {
+            "type": "carplate",
+            "plate_number": "新N5231W",
+            "confidence": 0.7956579923629761,
+            "position": {
+                "x1": 229,
+                "y1": 679,
+                "x2": 364,
+                "y2": 726
+            },
+            "time": "2025-08-19 13:17:38",
+            "image_path": "plate_images/plate_20250819131738.jpg"
+        }
+    ]
+}

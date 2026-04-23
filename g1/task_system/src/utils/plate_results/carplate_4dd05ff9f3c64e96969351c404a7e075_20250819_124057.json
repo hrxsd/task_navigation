@@ -1,0 +1,21 @@
+{
+    "detection_time": "20250819_124057",
+    "detection_type": "carplate",
+    "source_file": "test_image/4dd05ff9f3c64e96969351c404a7e075.png",
+    "results_count": 1,
+    "plates": [
+        {
+            "type": "carplate",
+            "plate_number": "冀XD11131",
+            "confidence": 0.7931057214736938,
+            "position": {
+                "x1": 355,
+                "y1": 352,
+                "x2": 427,
+                "y2": 377
+            },
+            "time": "2025-08-19 12:40:57",
+            "image_path": "plate_images/plate_20250819124057.jpg"
+        }
+    ]
+}

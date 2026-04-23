@@ -1,0 +1,20 @@
+{
+    "detection_time": "20250818_225703",
+    "detection_type": "image",
+    "source_file": "/home/unitree/navtest_ws/src/task_system/src/utils/test_image/1755172931131.jpg",
+    "plates_count": 1,
+    "plates": [
+        {
+            "plate_number": "粤BIF075",
+            "confidence": 0.8464525938034058,
+            "position": {
+                "x1": 1071,
+                "y1": 740,
+                "x2": 1283,
+                "y2": 820
+            },
+            "time": "2025-08-18 22:57:03",
+            "image_path": "plate_images/plate_20250818225703.jpg"
+        }
+    ]
+}

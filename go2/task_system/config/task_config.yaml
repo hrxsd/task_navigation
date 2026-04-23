@@ -1,0 +1,81 @@
+# Task System Configuration
+
+# 任务配置
+tasks:
+  classroom_patrol:
+    enabled: true
+    yolo_model: "student_behavior_detection"
+    default_classrooms: []
+    detection_interval: 10  # 每个教室停留5秒检测
+    save_images: true
+  
+  vehicle_patrol:
+    enabled: true
+    yolo_model: "vehicle_detection"
+    ocr_model: "license_plate_recognition"
+    patrol_points: []
+    detection_interval: 15
+    save_images: true
+    
+  delivery:
+    enabled: true
+    timeout: 300
+    confirmation_required: false
+    
+  guide:
+    enabled: true
+    voice_prompts: true
+    step_by_step: true
+    
+  assistant:
+    enabled: true
+    interaction_timeout: 30
+    arm_gestures: true
+    gesture_probability: 0.3  # 30%概率做手势
+
+# 数据库配置
+database:
+  waypoints_path: "/home/unitree/navtest_ws/src/task_system/data/waypoints/navigation_points.json"
+
+# LLM配置
+llm:
+  api_key: "sk-qDrjngeLeP25yMit9650A553685c493cA6C248D160Eb057e"
+  api_base: "https://api.gpt.ge/v1"
+  model: "gpt-4o-2024-11-20"
+  temperature: 0.3
+  max_tokens: 300
+
+# ROS话题配置
+ros_topics:
+  camera: "/camera/color/image_raw"
+  audio_input: "/audio/speech_recognition"  # 语音识别输入
+  audio_output: "/audio/tts"                # 语音合成输出
+
+# 音频配置
+audio:
+  use_tts: true  # 是否启用TTS语音合成
+  tts_config:
+    app_id: "38b03603"
+    api_key: "52136d6271eb9e4fbc6e1da9f59ab33f"
+    api_secret: "NzRmOGU4N2IyZWQ2ZGQ3NTJkOWU5ZTRl"
+    voice: "x4_yezi"      # 语音类型 (叶子音色)
+    sample_rate: 16000    # 采样率
+  
+# ROS导航配置
+ros_navigation:
+  map_frame: "map"
+  robot_frame: "base_link_flat"
+  goal_tolerance: 0.5
+  move_base_timeout: 10.0
+
+# 检测模型配置
+detection_models:
+  student_behavior: "path/to/student_yolo_model"
+  vehicle_detection: "path/to/vehicle_yolo_model"
+  license_plate: "path/to/ocr_model"
+
+# 数据保存配置
+data_storage:
+  detection_results_path: "/home/unitree/navtest_ws/src/task_system/data/detection_results"
+  logs_path: "/home/unitree/navtest_ws/src/task_system/data/logs"
+  max_log_size: 10  # MB 

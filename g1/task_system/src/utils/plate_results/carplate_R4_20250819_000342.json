@@ -1,0 +1,21 @@
+{
+    "detection_time": "20250819_000342",
+    "detection_type": "carplate",
+    "source_file": "test_image/R4.jpeg",
+    "results_count": 1,
+    "plates": [
+        {
+            "type": "carplate",
+            "plate_number": "湘LUU777",
+            "confidence": 0.862928032875061,
+            "position": {
+                "x1": 264,
+                "y1": 536,
+                "x2": 432,
+                "y2": 590
+            },
+            "time": "2025-08-19 00:03:42",
+            "image_path": "plate_images/plate_20250819000341.jpg"
+        }
+    ]
+}

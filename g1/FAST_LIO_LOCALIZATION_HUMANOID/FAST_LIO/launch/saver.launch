@@ -1,0 +1,30 @@
+<launch>
+    <arg name="file_directory" default="$(find navigation)/config/map/"/>
+    <arg name="file_name" default="map"/>
+    <arg name="thre_z_min" default="0.1"/>
+    <arg name="thre_z_max" default="2.5"/>
+    <arg name="flag_pass_through" default="0"/>
+    <arg name="grid_x" default="0.05"/>
+    <arg name="grid_y" default="0.05"/>
+    <arg name="grid_z" default="0.1"/>
+    <arg name="thre_radius" default="0.5"/>
+    <arg name="map_resolution" default="0.05"/>
+    <arg name="map_topic_name" default="map"/>
+
+    <node name="pcd2pgm" pkg="fast_lio" type="pcd2pgm" output="screen">
+        <param name="file_directory" value="$(arg file_directory)"/>
+        <param name="file_name" value="$(arg file_name)"/>
+        <param name="thre_z_min" value="$(arg thre_z_min)"/>
+        <param name="thre_z_max" value="$(arg thre_z_max)"/>
+        <param name="flag_pass_through" value="$(arg flag_pass_through)"/>
+        <param name="grid_x" value="$(arg grid_x)"/>
+        <param name="grid_y" value="$(arg grid_y)"/>
+        <param name="grid_z" value="$(arg grid_z)"/>
+        <param name="thre_radius" value="$(arg thre_radius)"/>
+        <param name="map_resolution" value="$(arg map_resolution)"/>
+        <param name="map_topic_name" value="$(arg map_topic_name)"/>
+    </node>
+
+    <arg name="filename" value="$(find navigation)/config/map/map" />
+    <node name="map_save" pkg="map_server" type="map_saver" args="-f $(arg filename)"  output="screen" />
+</launch>

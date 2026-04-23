@@ -1,0 +1,21 @@
+{
+    "detection_time": "20250819_001045",
+    "detection_type": "carplate",
+    "source_file": "test_image/d32d1130fac344e78aaeb9496a5f4039.jpeg",
+    "results_count": 1,
+    "plates": [
+        {
+            "type": "carplate",
+            "plate_number": "川SX6888",
+            "confidence": 0.8553673028945923,
+            "position": {
+                "x1": 173,
+                "y1": 604,
+                "x2": 313,
+                "y2": 651
+            },
+            "time": "2025-08-19 00:10:45",
+            "image_path": "plate_images/plate_20250819001045.jpg"
+        }
+    ]
+}

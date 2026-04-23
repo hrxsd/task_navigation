@@ -1,0 +1,21 @@
+{
+    "detection_time": "20250819_132547",
+    "detection_type": "carplate",
+    "source_file": "test_image/1111.jpg",
+    "results_count": 1,
+    "plates": [
+        {
+            "type": "carplate",
+            "plate_number": "OCR未初始化",
+            "confidence": 0.766291081905365,
+            "position": {
+                "x1": 700,
+                "y1": 550,
+                "x2": 827,
+                "y2": 604
+            },
+            "time": "2025-08-19 13:25:47",
+            "image_path": "plate_images/plate_20250819132547.jpg"
+        }
+    ]
+}

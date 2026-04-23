@@ -1,0 +1,20 @@
+{
+    "detection_time": "20250818_224920",
+    "detection_type": "image",
+    "source_file": "test_image/R4.jpeg",
+    "plates_count": 1,
+    "plates": [
+        {
+            "plate_number": "湘LUU777",
+            "confidence": 0.862928032875061,
+            "position": {
+                "x1": 264,
+                "y1": 536,
+                "x2": 432,
+                "y2": 590
+            },
+            "time": "2025-08-18 22:49:20",
+            "image_path": "plate_images/plate_20250818224920.jpg"
+        }
+    ]
+}

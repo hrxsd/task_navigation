@@ -1,0 +1,32 @@
+{
+    "detection_time": "20250818_225010",
+    "detection_type": "image",
+    "source_file": "test_image/1755172977228.jpg",
+    "plates_count": 2,
+    "plates": [
+        {
+            "plate_number": "粤H0367W",
+            "confidence": 0.8683817386627197,
+            "position": {
+                "x1": 975,
+                "y1": 673,
+                "x2": 1070,
+                "y2": 709
+            },
+            "time": "2025-08-18 22:50:10",
+            "image_path": "plate_images/plate_20250818225009.jpg"
+        },
+        {
+            "plate_number": "辽8C280",
+            "confidence": 0.7599365711212158,
+            "position": {
+                "x1": 371,
+                "y1": 686,
+                "x2": 459,
+                "y2": 715
+            },
+            "time": "2025-08-18 22:50:10",
+            "image_path": "plate_images/plate_20250818225010.jpg"
+        }
+    ]
+}
